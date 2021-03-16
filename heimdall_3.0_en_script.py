@@ -23,6 +23,7 @@ from sklearn.svm import SVC
 from sklearn.ensemble import VotingClassifier
 import jieba
 import nltk
+nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 from nltk.classify.scikitlearn import SklearnClassifier
 import hanziconv
